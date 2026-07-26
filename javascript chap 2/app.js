@@ -31,5 +31,9 @@
 // alert(a_smarter_way_to_learn_javascript)
 
 // Question no 8
-var msg=("Yah! I can write HTML content through JavaScript")
-document.write(msg)
+// var msg=("Yah! I can write HTML content through JavaScript")
+// document.write(msg)
+
+// Question no 9
+var specialcharacter=("“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”")
+alert(specialcharacter)
