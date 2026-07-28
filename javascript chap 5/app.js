@@ -69,10 +69,39 @@
 // document.write("<br>" + num1 + "x" + num2 + "=" + grandtotal)
 
 // Question no 6
-var celsius=25;
-var Farenheit=(celsius*9/5)+32;
-document.write(celsius + "°C" + " in Farenheit is " + Farenheit + "°F")
+// var celsius=25;
+// var Farenheit=(celsius*9/5)+32;
+// document.write(celsius + "°C" + " in Farenheit is " + Farenheit + "°F")
 
-var Farenheit2=70
-var celsius2=(Farenheit2-32)*5/9;
-document.write("<br>" + Farenheit2 + "°F" + " in Celcius is " + celsius2 + "°C")
+// var Farenheit2=70
+// var celsius2=(Farenheit2-32)*5/9;
+// document.write("<br>" + Farenheit2 + "°F" + " in Celcius is " + celsius2 + "°C")
+
+// Question no 7
+// var poi1 = 650 , poi2 = 100;
+// var quantity1 = 3, quantity2 = 7, shipping = 100;
+// var total;
+
+// document.write("Shopping Cart")
+// document.write("<br><br>Price of Item 1 is " + poi1 )
+// document.write("<br>Quantity of Item 1 is " + quantity1)
+// document.write("<br><br>Price of Item 2 is " + poi2 )
+// document.write("<br>Quantity of Item 2 is " + quantity2)
+// document.write("<br>Shipping Charges is " + shipping)
+
+// total = (poi1*quantity1)+(poi2*quantity2)+shipping;
+
+// document.write("<br>Total cost of your order is " + total)
+
+// Question no 8
+// var total_marks = 980, marks_obtained =804;
+// var percentage = (marks_obtained/total_marks)*100;
+
+// document.write("Total mark : " + total_marks)
+// document.write("<br>Obtained marks : " + marks_obtained)
+// document.write("<br>Percentage : " + percentage + "%")
+
+// Question no 9
+total
+document.write("Currency in PKR")
+document.write("<br>total currency in PKR is " + )
