@@ -102,6 +102,29 @@
 // document.write("<br>Percentage : " + percentage + "%")
 
 // Question no 9
-total
-document.write("Currency in PKR")
-document.write("<br>total currency in PKR is " + )
+// var dollar = 10, dollar_pkr = 277 ;
+// var riyal = 25, riyal_pkr = 74;
+// var total =(10*277)+(25*74)
+// document.write("Currency in PKR")
+// document.write("<br><br><br>total currency in PKR is : " + total)
+
+// Question no 10
+// var num = prompt("type a number")
+// var ans = ((num+2)*10)/2;
+// alert(ans)
+
+// Question 11
+// var current_year = 2026, birth_year = prompt("type your birth year");
+// var your_age = current_year-birth_year;
+
+// document.write("AGE CALCULATOR")
+// document.write("<br><br>Current year: " + current_year + "<br>Your birth year: " + birth_year + "<br>Your age: " + your_age)
+
+// Question no 12
+var radius = 20, circmference = 2*3.142*radius, area = 3.142*radius*radius;
+
+document.write("THE GEOMETRIZER")
+
+document.write("<br>Radius of a Circle: " + radius)
+document.write("<br>The circumference: " + circmference)
+document.write("<br>Area of the circle: " + area)
