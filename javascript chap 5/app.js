@@ -121,10 +121,22 @@
 // document.write("<br><br>Current year: " + current_year + "<br>Your birth year: " + birth_year + "<br>Your age: " + your_age)
 
 // Question no 12
-var radius = 20, circmference = 2*3.142*radius, area = 3.142*radius*radius;
+// var radius = 20, circmference = 2*3.142*radius, area = 3.142*radius*radius;
 
-document.write("THE GEOMETRIZER")
+// document.write("THE GEOMETRIZER")
 
-document.write("<br>Radius of a Circle: " + radius)
-document.write("<br>The circumference: " + circmference)
-document.write("<br>Area of the circle: " + area)
+// document.write("<br>Radius of a Circle: " + radius)
+// document.write("<br>The circumference: " + circmference)
+// document.write("<br>Area of the circle: " + area)
+
+// Question no 13
+// var fav_snack = "lays", current_age = 18, max_age = 70, amount = 3;
+// var total = (max_age - current_age)*365*3;
+
+// document.write("LIFE TIME SUPPLY CALCULATOR")
+// document.write("<br><br>Favourite Snack: " + fav_snack)
+// document.write("<br>Current Age: " + current_age)
+// document.write("<br>Estimated Age " + max_age)
+// document.write("<br>Amount of snack per day: " + amount)
+// document.write("<br>You will need " + total + " to last you until the ripe old age of " + max_age)
+
