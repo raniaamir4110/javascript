@@ -19,16 +19,23 @@
 
 // Question no 5
 // var fruits = ["apple","banana","mango","orange","strawberry"]
-// for(var i = 1; i<=fruits.length; i++){
-//     document.write("<br>" + fruits[0])
+// var join_fruits = fruits.join(" <br>")
+// document.write("<br>" + join_fruits)
+// for(var  i = 0; i<fruits.length; i++){
+//     document.write("<br>The Element at index " + i + " is " + fruits[i])
 // }
 
+
+
 // Question no 6
-document.write("counting : ")
-for(var i = 1; i<=15; i++){
-    document.write(i)
-}
-document.write("<br>reverse counting : ")
-for(var i = 10; i<=1; i--){
-    document.write(i)
-}
+var forward_counting = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+var reverse_counting = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+var even_counting = [ 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+var odd_counting = [ 1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+var series_counting = ["2k", "4k", "6k", "8k", "10k", "12k", "14k", "16k", "18k", "20k"]
+
+document.write("COUNTING : <br>" + forward_counting)
+document.write("<br><br>REVERSE COUNTING : <br>" + reverse_counting)
+document.write("<br><br>EVEN  : <br>" + even_counting)
+document.write("<br><br>ODD : <br>" + odd_counting)
+document.write("<br><br>SERIES : <br>" + series_counting)
