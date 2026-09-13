@@ -58,10 +58,69 @@
 // document.write("Later Date : " + laterDate)9
 
 // Question no 9
-var ramadan = new Date("February 19, 2026")
-var today = new Date()
-var difference = today.getTime() - ramadan.getTime()
+// var ramadan = new Date("February 19, 2026")
+// var today = new Date()
+// var difference = today.getTime() - ramadan.getTime()
 
-var days = difference / (1000 * 60 * 60 * 24)
+// var days = difference / (1000 * 60 * 60 * 24)
 
-document.write(Math.floor(days) + " has passed since 1st Ramadan")
+// document.write(Math.floor(days) + " has passed since 1st Ramadan")
+
+// Question no 10
+// var referenceDate = new Date("December 5, 2015 22:50:16")
+// var beginningof2015 = new Date("January 1, 2015")
+
+// var milisecond = referenceDate - beginningof2015
+// var second = Math.floor(milisecond / 1000)
+
+// document.write("on reference date " + referenceDate + " " + second + " seconds have passed since begining of 2015 ")
+
+// Question  no 11
+
+// var date = new Date();
+
+// document.write("Current date: " + date + "<br>");
+
+// var hours = date.getHours();
+// date.setHours(hours - 1);
+
+// document.write("1 hour ago, it was " + date);
+
+// Question no 12
+// var date = new Date();
+
+// document.write("Current date: " + date + "<br>");
+
+// var year = date.getFullYear();
+// date.setFullYear(year - 100);
+
+// alert("100 years back, it was " + date);
+
+// Question no 13
+// var age = prompt("Enter your age:");
+
+// var currentYear = new Date().getFullYear();
+// var birthYear = currentYear - age;
+
+// document.write("Your age is " + age + "<br>");
+// document.write("Your birth year is " + birthYear);
+
+// Question no 14
+// var time = new Date()
+// var month = time.getMonth();
+// if(month == 8){
+//     month = "September"
+// }
+// var numofunit = 410
+// var chargesperunit = 16
+// var latepayement = 350
+// var NAP_beforeduedate = numofunit*chargesperunit
+// var NAP_afterduedate =NAP_beforeduedate+latepayement
+// document.write("K-ELECTRIC BILL<br><br>")
+// document.write("Customer Name : Rania Amir<br>")
+// document.write("Current Month : " + month + "<br>")
+// document.write("Number of Units : "+ numofunit+ "<br>")
+// document.write("Charges per Unit : " + chargesperunit+"<br><br><br>")
+// document.write("Net Amount Payable Before Due Date : " + NAP_beforeduedate +"<br>")
+// document.write("Late Payement Charges : " + latepayement +"<br>")
+// document.write("Net Amount Payable After Due Date : " + NAP_afterduedate +"<br>")
