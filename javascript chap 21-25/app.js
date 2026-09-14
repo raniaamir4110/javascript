@@ -59,3 +59,23 @@
 // document.write("<br>After Replacement : " + new_text)
 
 // Question no 8
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var new_message = message.replaceAll("and" , "&")
+// document.write("Original text : " + message)
+// document.write("<br>After replacement  : " + new_message)
+
+// Question no 9
+// var value = "472"
+// var type_value = typeof(value)
+// document.write("Value: " + value)
+// document.write("<br>Type: " + type_value)
+// var changed_value = value.replace("472",472)
+// changed_value = typeof(value)
+// document.write("<br>Value: " + value)
+// document.write("<br>Type: " + changed_value)
+
+// Question no 10
+// var input = prompt("Enter any word")
+// document.write("User Input: " + input)
+// var changed_input = input.toUpperCase()
+// document.write("<br>Upper Case: " + changed_input)
